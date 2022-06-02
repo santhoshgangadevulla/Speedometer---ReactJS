@@ -1,0 +1,57 @@
+/* Write your CSS here */
+.speedometer-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.heading {
+  color: white;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 700;
+  text-align: center;
+}
+
+.image {
+  height: 250px;
+  width: 620px;
+}
+
+.speedometer-reading {
+  color: white;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.instruction {
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.accelerate-button {
+  background-color: blue;
+  height: 40px;
+  width: 100px;
+  border-color: blue;
+  border-style: solid;
+  border-radius: 5px;
+  color: white;
+  margin-right: 20px;
+}
+
+.apply-brake-button {
+  background-color: transparent;
+  height: 40px;
+  width: 100px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  color: white;
+  margin-right: 20px;
+}
